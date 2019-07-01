@@ -18,40 +18,41 @@ public class PDFModel implements Serializable {
     /**
      * "fontSize": "字体大小",
      */
-    private String fontSize;
+    private Integer fontSize;
     /**
      * "height": "宽",
      */
-    private String height;
+    private float height;
     /**
      * "width": "长",
      */
-    private String width;
+    private float width;
     /**
      * "name":"表单域的名称",
      */
     private String name;
 
-    private String page;
+    private Integer page;
 
-    private String positionX;
+    private float positionX;
 
-    private String positionY;
+    private float positionY;
     /**
      * "value":"表单域的值，可选"
      */
     private String value;
+
     private String font;
 
-    public String getFontSize() {
+    public Integer getFontSize() {
         return fontSize;
     }
 
-    public String getHeight() {
+    public float getHeight() {
         return height;
     }
 
-    public String getWidth() {
+    public float getWidth() {
         return width;
     }
 
@@ -59,15 +60,15 @@ public class PDFModel implements Serializable {
         return name;
     }
 
-    public String getPage() {
+    public Integer getPage() {
         return page;
     }
 
-    public String getPositionX() {
+    public float getPositionX() {
         return positionX;
     }
 
-    public String getPositionY() {
+    public float getPositionY() {
         return positionY;
     }
 
@@ -79,15 +80,15 @@ public class PDFModel implements Serializable {
         return font;
     }
 
-    public void setFontSize(String fontSize) {
+    public void setFontSize(Integer fontSize) {
         this.fontSize = fontSize;
     }
 
-    public void setHeight(String height) {
+    public void setHeight(float height) {
         this.height = height;
     }
 
-    public void setWidth(String width) {
+    public void setWidth(float width) {
         this.width = width;
     }
 
@@ -95,15 +96,15 @@ public class PDFModel implements Serializable {
         this.name = name;
     }
 
-    public void setPage(String page) {
+    public void setPage(Integer page) {
         this.page = page;
     }
 
-    public void setPositionX(String positionX) {
+    public void setPositionX(float positionX) {
         this.positionX = positionX;
     }
 
-    public void setPositionY(String positionY) {
+    public void setPositionY(float positionY) {
         this.positionY = positionY;
     }
 
